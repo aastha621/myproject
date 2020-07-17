@@ -61,7 +61,7 @@ background-image: url("../images/header.jpg");
 	display: grid;
 	grid-template-columns: 1fr;
 	float: right;
-	width:300px;
+	width:230px;
 	height: 320px;
 
 
@@ -79,6 +79,12 @@ background-image: url("../images/header.jpg");
 	grid-template-columns: 1fr 2fr;
 }
 
-.button{
-	justify-content: center;
+.learn{
+	text-align:center;
 }
+
+.page-footer{
+	background-color: #37ADA4;
+}
+
+
