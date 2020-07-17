@@ -1,6 +1,8 @@
 body{
-	background: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
+background: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
 background-size: 100%;
+margin:0px;
+width: 100%;
 
 
 }
@@ -55,13 +57,14 @@ img:hover{
 /*background-color: #35dcd93d;*/
 background-image: url("../images/header.jpg");
   background-size: cover;
+  width:100%;
 }
 
 .profilepic{
 	display: grid;
 	grid-template-columns: 1fr;
 	float: right;
-	width:410px;
+	width:450px;
 	height: 320px;
 
 
