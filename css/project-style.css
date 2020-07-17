@@ -1,0 +1,72 @@
+body{
+	background: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
+background-size: 100%;
+
+
+}
+
+
+h1{
+	color:white;
+	text-align:center;
+	border-bottom: 2px solid #37ADA4;
+	padding-bottom: 5px;
+	
+
+}
+
+img{
+	
+	margin: 5px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+.container{
+	display: flex;
+	margin:20px;
+	margin-top: 60px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.box{
+	border: 2px solid black;
+}
+
+.navbar-light{
+	background-color:#37ADA4;
+
+}
+
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	color: white;
+
+}
+
+.JumboImage{
+
+/*background-color: #35dcd93d;*/
+background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+.profilepic{
+	display: grid;
+	grid-template-columns: 1fr;
+	float: right;
+	width:300px;
+	height: 280px;
+
+}
+
+.lead{
+	padding: 40px;
+	font-size: 2em;
+}
